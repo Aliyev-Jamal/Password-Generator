@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <h1>Password Generator</h1>
+            <div class="result">
+                <div class="result-box"></div>
+                <button id="copy-btn">
+                    <img src="./assets/copy.png" alt="#">
+                </button>
+            </div>
+            <div class="password-rate">
+                <img src="./assets/shield-check.png" alt="#">
+                <p>Password Security</p>
+                <div id="rate-info">Easy</div>
+            </div>
+            <div class="password-length-settings">
+                <div id="length-info">
+                    <p>Length</p>
+                    <p>10</p>
+                </div>
+                <div>
+                    <input id="length-bar" type="range" min="4" max="32" value="16">
+                </div>
+            </div>
+            <div class="character-types-settings">
+                <h5>Character Types</h5>
+                <div class="type-item">
+                    <span>Uppercase</span>
+                    <label class="switch">
+                        <input type="checkbox" checked id="uppercase">
+                        <span class="switch-slider"></span>
+                    </label>
+                </div>
+                                <div class="type-item">
+                    <span>Lowercase</span>
+                    <label class="switch">
+                        <input type="checkbox" checked id="lowercase">
+                        <span class="switch-slider"></span>
+                    </label>
+                </div>
+                                <div class="type-item">
+                    <span>Numbers</span>
+                    <label class="switch">
+                        <input type="checkbox" checked id="numbers">
+                        <span class="switch-slider"></span>
+                    </label>
+                </div>
+                                <div class="type-item">
+                    <span>Symbols</span>
+                    <label class="switch">
+                        <input type="checkbox" checked id="symbols">
+                        <span class="switch-slider"></span>
+                    </label>
+                </div>
+            </div>
+            <button id="generate-bth">
+                <p>Generate</p>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
