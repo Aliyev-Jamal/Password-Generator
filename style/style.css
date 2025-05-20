@@ -33,6 +33,13 @@
     justify-content: space-between;
 }
 
+.result-box{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #copy-btn {
     position: relative;
     right: 20px;
