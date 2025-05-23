@@ -35,6 +35,7 @@
 
 .result-box{
     margin-left: 20px;
+    font-size: small;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +51,7 @@
 }
 
 .password-rate {
+    text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
